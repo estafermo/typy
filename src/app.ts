@@ -45,8 +45,8 @@ class App {
       MONGO_PASSWORD,
       MONGO_PATH,
     } = process.env;
-    //mongoose.connect(`mongodb://${MONGO_USER}:${MONGO_PASSWORD}${MONGO_PATH}`);
-    mongoose.connect('mongodb+srv://a:b@cluster0-wsayn.mongodb.net/test?retryWrites=true&w=majority', {useNewUrlParser: true});
+    mongoose.connect(`mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}${MONGO_PATH}`);
+   
   }
 }
  

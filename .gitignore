@@ -1,2 +1,4 @@
 .env
 helper.txt
+dist/
+node_modules/
