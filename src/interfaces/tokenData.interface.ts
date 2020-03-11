@@ -3,8 +3,6 @@ interface TokenData {
     expiresIn: number;
   }
 
-  interface DataStoredInToken {
-    _id: string;
-  }
+
 
 export default TokenData;
