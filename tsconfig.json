@@ -1,10 +1,10 @@
 {
-
     "compilerOptions": {
       "sourceMap": true,
       "target": "es2017",
       "outDir": "./dist",
       "baseUrl": "./src",
+      "moduleResolution": "node", //for class-validator
       "experimentalDecorators": true
     },
     "include": [
